@@ -1,406 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Landing Page - Tiba Tiba Website</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Landing Page - Tiba Tiba Website</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.jpg" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-</head>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">TTW</h1>
+          <span>.</span>
+        </a>
 
-<body class="index-page">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" class="active">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="index.html#team">Team</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+        <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      </div>
+    </header>
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">TTW</h1><span>.</span>
-      </a>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html#hero" class="active">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
-          <li><a href="index.html#team">Team</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10">
-            <h2 data-aos="fade-up" data-aos-delay="100">Welcome to Tiba Tiba Website</h2>
-            <p data-aos="fade-up" data-aos-delay="200">Kami menciptakan website fungsional dan menarik sesuai kebutuhan Anda</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h2 data-aos="fade-up" data-aos-delay="100">
+                Welcome to Tiba Tiba Website
+              </h2>
+              <p data-aos="fade-up" data-aos-delay="200">
+                Kami menciptakan website fungsional dan menarik sesuai kebutuhan
+                Anda
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Hero Section -->
 
-    </section><!-- /Hero Section -->
-    
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
+      <!-- Clients Section -->
+      <section id="clients" class="clients section">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/mercu.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-      <div class="container" data-aos="fade-up">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/shell.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-        <div class="row gy-4">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/warteg.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/mercu.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/indomie.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/shell.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/kr'empe.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/warteg.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/indomie.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/kr'empe.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/warmindo.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/warmindo.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+          </div>
         </div>
+      </section>
+      <!-- /Clients Section -->
 
-      </div>
+      <!-- About Section -->
+      <section id="about" class="about section light-background">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-xl-center gy-5">
+            <div class="col-xl-5 content">
+              <h3>About Us</h3>
+              <h2>Tiba Tiba Website</h2>
+              <p>
+                Tiba Tiba Website adalah tempat dimana kalian bisa menggunakan
+                jasa kami untuk membuat sebuah website. Mulai dari Landing Page,
+                Website Portofolio hingga Website e-commerce.
+              </p>
+              <a href="#" class="read-more"
+                ><span>Read More</span><i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
 
-    </section><!-- /Clients Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-xl-center gy-5">
-
-          <div class="col-xl-5 content">
-            <h3>About Us</h3>
-            <h2>Tiba Tiba Website</h2>
-            <p>Tiba Tiba Website adalah tempat dimana kalian bisa menggunakan jasa kami untuk membuat sebuah website. Mulai dari Landing Page, Website Portofolio hingga Website e-commerce.</p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-
-          <div class="col-xl-7">
-            <div class="row gy-4 icon-boxes">
-
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box">
-                  <i class="bi bi-buildings"></i>
-                  <h3>IDE</h3>
-                  <p>Kami akan menerima ide ide atau Kemauan client tentang website apa yang client mau</p>
+            <div class="col-xl-7">
+              <div class="row gy-4 icon-boxes">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                    <i class="bi bi-buildings"></i>
+                    <h3>IDE</h3>
+                    <p>
+                      Kami akan menerima ide ide atau Kemauan client tentang
+                      website apa yang client mau
+                    </p>
+                  </div>
                 </div>
-              </div> <!-- End Icon Box -->
+                <!-- End Icon Box -->
 
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon-box">
-                  <i class="bi bi-clipboard-pulse"></i>
-                  <h3>DOWN PAYMENT</h3>
-                  <p>Kami akan meminta pembayaran awal untuk modal utama pembuatan website.</p>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-clipboard-pulse"></i>
+                    <h3>DOWN PAYMENT</h3>
+                    <p>
+                      Kami akan meminta pembayaran awal untuk modal utama
+                      pembuatan website.
+                    </p>
+                  </div>
                 </div>
-              </div> <!-- End Icon Box -->
+                <!-- End Icon Box -->
 
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon-box">
-                  <i class="bi bi-command"></i>
-                  <h3>PROSES KERJA</h3>
-                  <p>Kami akan mulai mengerjakan website yang client minta sesuai dengan kriteria yang ada.</p>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-command"></i>
+                    <h3>PROSES KERJA</h3>
+                    <p>
+                      Kami akan mulai mengerjakan website yang client minta
+                      sesuai dengan kriteria yang ada.
+                    </p>
+                  </div>
                 </div>
-              </div> <!-- End Icon Box -->
+                <!-- End Icon Box -->
 
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="icon-box">
-                  <i class="bi bi-graph-up-arrow"></i>
-                  <h3>REVISI</h3>
-                  <p>Kami akan memberikan prototype sementara kepada client untuk melihat kepuasan client. Jika client masih belum puas, kami akan melakukan revisi kembali.</p>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <h3>REVISI</h3>
+                    <p>
+                      Kami akan memberikan prototype sementara kepada client
+                      untuk melihat kepuasan client. Jika client masih belum
+                      puas, kami akan melakukan revisi kembali.
+                    </p>
+                  </div>
                 </div>
-              </div> <!-- End Icon Box -->
-
+                <!-- End Icon Box -->
+              </div>
             </div>
           </div>
-
         </div>
-      </div>
+      </section>
+      <!-- /About Section -->
 
-    </section><!-- /About Section -->
-
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Features</h2>
-        <p>Kategori Website Yang Tersedia</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>NEWS</h3>
-            <p>
-              Website berita dirancang untuk menyajikan informasi dan berita terkini kepada pembaca. Kontennya sering diperbarui secara berkala dan meliputi berbagai topik, mulai dari politik, ekonomi, olahraga, hingga hiburan
-            </p>
-            <a href="index.html#pricing" class="btn btn-get-started">Get Started</a>
-          </div>
-          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="image-stack">
-              <img src="assets/img/web1.jpg" alt="" class="stack-front">
-              <img src="assets/img/admin.jpg" alt="" class="stack-back">
-            </div>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
-          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-            <img src="assets/img/rinjay2.png" alt="" class="stack-front">
-          </div>
-          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
-            <h3>PORTOFOLIO</h3>
-            <p>Website Portofolio dirancang untuk menampilkan karya atau pengalaman seseorang, seperti fotografer, desainer grafis, atau penulis. Website ini berfungsi sebagai ruang pamer digital untuk memperlihatkan keterampilan dan prestasi seseorang kepada calon klien atau pemberi kerja.</p>
-            <a href="index.html#pricing" class="btn btn-get-started align-self-start">Get Started</a>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-            <h3>LANDING PAGE</h3>
-            <p>
-              Landing Page adalah halaman tunggal di website yang didesain khusus untuk tujuan tertentu, seperti promosi produk, layanan, atau acara spesifik. Biasanya, Landing Page memiliki konten yang fokus, dengan satu CTA (Call-to-Action) yang mengarahkan pengunjung untuk melakukan aksi tertentu, seperti mengisi formulir, mendaftar, atau membeli produk.
-            </p>
-            <a href="index.html#pricing" class="btn btn-get-started">Get Started</a>
-          </div>
-          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="image-stack">
-              <img src="assets/img/putra1.jpg" alt="" class="stack-front">
-              <img src="assets/img/putra2.jpg" alt="" class="stack-back">
-            </div>
-          </div>
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 align-items-center features-item">
-          <div class="col-lg-7 order-1 order-lg-1 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-            <div class="image-stack">
-              <img src="assets/img/krisna1.jpeg" alt="" class="stack-front">
-              <img src="assets/img/krisna2.jpeg" alt="" class="stack-back">
-            </div>
-          </div>
-          <div class="col-lg-5 order-2 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-            <h3>E-commerce</h3>
-            <p>
-              Website e-commerce adalah platform online yang digunakan untuk menjual produk atau jasa. Pada website ini, pengguna bisa menjelajahi produk, menambahkan ke keranjang, dan melakukan pembayaran secara langsung.
-            </p>
-            <a href="index.html#pricing" class="btn btn-get-started">Get Started</a>
-          </div>
-        </div><!-- Features Item -->
-
-
-      </div>
-
-    </section><!-- /Features Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Check out our past project</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item ">
-              <img src="assets/img/masonry-portfolio/aset 8.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/image-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
-              <img src="assets/img/masonry-portfolio/aset 6.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Admin Dashboard</h4>
-                <p>Telu Gusti Noir, Bisnis</p>
-                <a href="assets/img/masonry-portfolio/aset 6.jpeg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
-              <img src="assets/img/masonry-portfolio/aset 10.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>E-Book</h4>
-                <p>E-book, E-Commerce</p>
-                <a href="assets/img/masonry-portfolio/aset 10.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
-              <img src="assets/img/masonry-portfolio/aset 12.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Alexander The Great</h4>
-                <p>RInjay, Portofolio</p>
-                <a href="assets/img/masonry-portfolio/aset 12.png" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
-              <img src="assets/img/masonry-portfolio/aset 11.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>CRP landing Page</h4>
-                <p>CRP Top Up, E-Commerce</p>
-                <a href="assets/img/masonry-portfolio/aset 11.jpeg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
-              <img src="assets/img/masonry-portfolio/aset 9.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>CRP Dashboard</h4>
-                <p>CRP Top Up, Bisnis</p>
-                <a href="assets/img/masonry-portfolio/aset 9.png" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="#" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Harga transparan dan kompetitif untuk setiap paket. Dapatkan website impian Anda tanpa khawatir!</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="zoom-in" data-aos-delay="100">
-
-        <div class="row g-4">
-
-          <div class="col-lg-4">
-            <div class="pricing-item">
-              <h3>Free Plan</h3>
-              <div class="icon">
-                <i class="bi bi-box"></i>
-              </div>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4">
-            <div class="pricing-item featured">
-              <h3>Business Plan</h3>
-              <div class="icon">
-                <i class="bi bi-rocket"></i>
-              </div>
-
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
-
-          <div class="col-lg-4">
-            <div class="pricing-item">
-              <h3>Developer Plan</h3>
-              <div class="icon">
-                <i class="bi bi-send"></i>
-              </div>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
-                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li>
-                <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-              </ul>
-              <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-            </div>
-          </div><!-- End Pricing Item -->
-
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Features</h2>
+          <p>Kategori Website Yang Tersedia</p>
         </div>
         <!-- End Section Title -->
 
+        <div class="container">
+          <div class="row gy-4 align-items-center features-item">
+            <div
+              class="col-lg-5 order-2 order-lg-1"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>NEWS</h3>
+              <p>
+                Website berita dirancang untuk menyajikan informasi dan berita
+                terkini kepada pembaca. Kontennya sering diperbarui secara
+                berkala dan meliputi berbagai topik, mulai dari politik,
+                ekonomi, olahraga, hingga hiburan
+              </p>
+              <a href="index.html#pricing" class="btn btn-get-started"
+                >Get Started</a
+              >
+            </div>
+            <div
+              class="col-lg-7 order-1 order-lg-2 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <div class="image-stack">
+                <img src="assets/img/web1.jpg" alt="" class="stack-front" />
+                <img src="assets/img/admin.jpg" alt="" class="stack-back" />
+              </div>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div
+            class="row gy-4 align-items-stretch justify-content-between features-item"
+          >
+            <div
+              class="col-lg-6 d-flex align-items-center features-img-bg"
+              data-aos="zoom-out"
+            >
+              <img src="assets/img/rinjay2.png" alt="" class="stack-front" />
+            </div>
+            <div
+              class="col-lg-5 d-flex justify-content-center flex-column"
+              data-aos="fade-up"
+            >
+              <h3>PORTOFOLIO</h3>
+              <p>
+                Website Portofolio dirancang untuk menampilkan karya atau
+                pengalaman seseorang, seperti fotografer, desainer grafis, atau
+                penulis. Website ini berfungsi sebagai ruang pamer digital untuk
+                memperlihatkan keterampilan dan prestasi seseorang kepada calon
+                klien atau pemberi kerja.
+              </p>
+              <a
+                href="index.html#pricing"
+                class="btn btn-get-started align-self-start"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 align-items-center features-item">
+            <div
+              class="col-lg-5 order-2 order-lg-1"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>LANDING PAGE</h3>
+              <p>
+                Landing Page adalah halaman tunggal di website yang didesain
+                khusus untuk tujuan tertentu, seperti promosi produk, layanan,
+                atau acara spesifik. Biasanya, Landing Page memiliki konten yang
+                fokus, dengan satu CTA (Call-to-Action) yang mengarahkan
+                pengunjung untuk melakukan aksi tertentu, seperti mengisi
+                formulir, mendaftar, atau membeli produk.
+              </p>
+              <a href="index.html#pricing" class="btn btn-get-started"
+                >Get Started</a
+              >
+            </div>
+            <div
+              class="col-lg-7 order-1 order-lg-2 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <div class="image-stack">
+                <img src="assets/img/putra1.jpg" alt="" class="stack-front" />
+                <img src="assets/img/putra2.jpg" alt="" class="stack-back" />
+              </div>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 align-items-center features-item">
+            <div
+              class="col-lg-7 order-1 order-lg-1 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="100"
+            >
+              <div class="image-stack">
+                <img src="assets/img/krisna1.jpeg" alt="" class="stack-front" />
+                <img src="assets/img/krisna2.jpeg" alt="" class="stack-back" />
+              </div>
+            </div>
+            <div
+              class="col-lg-5 order-2 order-lg-2"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <h3>E-commerce</h3>
+              <p>
+                Website e-commerce adalah platform online yang digunakan untuk
+                menjual produk atau jasa. Pada website ini, pengguna bisa
+                menjelajahi produk, menambahkan ke keranjang, dan melakukan
+                pembayaran secara langsung.
+              </p>
+              <a href="index.html#pricing" class="btn btn-get-started"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <!-- Features Item -->
+        </div>
+      </section>
+      <!-- /Features Section -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+          <p>Check out our past project</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                <img
+                  src="assets/img/masonry-portfolio/aset 8.jpeg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit</p>
+                  <a
+                    href="assets/img/masonry-portfolio/image-1.jpg"
+                    title="App 1"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                <img
+                  src="assets/img/masonry-portfolio/aset 6.jpeg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Admin Dashboard</h4>
+                  <p>Telu Gusti Noir, Bisnis</p>
+                  <a
+                    href="assets/img/masonry-portfolio/aset 6.jpeg"
+                    title="Product 1"
+                    data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a href="#" title="More Details" class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                <img
+                  src="assets/img/masonry-portfolio/aset 10.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>E-Book</h4>
+                  <p>E-book, E-Commerce</p>
+                  <a
+                    href="assets/img/masonry-portfolio/aset 10.jpg"
+                    title="App 2"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a href="#" title="More Details" class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                <img
+                  src="assets/img/masonry-portfolio/aset 12.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>Alexander The Great</h4>
+                  <p>RInjay, Portofolio</p>
+                  <a
+                    href="assets/img/masonry-portfolio/aset 12.png"
+                    title="Product 2"
+                    data-gallery="portfolio-gallery-product"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a href="#" title="More Details" class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                <img
+                  src="assets/img/masonry-portfolio/aset 11.jpeg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>CRP landing Page</h4>
+                  <p>CRP Top Up, E-Commerce</p>
+                  <a
+                    href="assets/img/masonry-portfolio/aset 11.jpeg"
+                    title="Branding 2"
+                    data-gallery="portfolio-gallery-branding"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a href="#" title="More Details" class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                <img
+                  src="assets/img/masonry-portfolio/aset 9.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <h4>CRP Dashboard</h4>
+                  <p>CRP Top Up, Bisnis</p>
+                  <a
+                    href="assets/img/masonry-portfolio/aset 9.png"
+                    title="App 3"
+                    data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"
+                    ><i class="bi bi-zoom-in"></i
+                  ></a>
+                  <a href="#" title="More Details" class="details-link"
+                    ><i class="bi bi-link-45deg"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
+
+      <!-- Pricing Section -->
+      <section id="pricing" class="pricing section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>
+            Harga transparan dan kompetitif untuk setiap paket. Dapatkan website
+            impian Anda tanpa khawatir!
+          </p>
+        </div>
+        <!-- End Section Title -->
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
           <div class="row g-4">
             <div class="col-lg-4">
@@ -516,7 +656,6 @@
       </section>
       <!-- /Pricing Section -->
 
-
       <!-- Team Section -->
       <section id="team" class="team section light-background">
         <!-- Section Title -->
@@ -536,12 +675,13 @@
               <div class="member-img">
                 <img src="assets/img/team/putra.jpg" class="img-fluid" alt="" />
                 <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
                   <a href="https://www.instagram.com/putraardianss/"
                     ><i class="bi bi-instagram"></i
                   ></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a
+                    href="https://www.linkedin.com/in/putra-ardiansyah-555b32334/"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
                 </div>
               </div>
               <div class="member-info text-center">
@@ -567,21 +707,19 @@
                   alt=""
                 />
                 <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
                   <a href="https://www.instagram.com/krisnaaa_wirawan/"
                     ><i class="bi bi-instagram"></i
                   ></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a
+                    href="https://www.linkedin.com/in/krisna-wirawan-8ab7942b9/"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
                 </div>
               </div>
               <div class="member-info text-center">
                 <h4>Krisna Aprian Putra Wirawan</h4>
                 <span>Back-end Dev</span>
-                <p>
-                  Labore ipsam sit consequatur exercitationem rerum laboriosam
-                  laudantium aut quod dolores exercitationem ut
-                </p>
+                <p>diam menyusun logika, bergerak code error semua</p>
               </div>
             </div>
             <!-- End Team Member -->
@@ -594,8 +732,6 @@
               <div class="member-img">
                 <img src="assets/img/team/restu.jpg" class="img-fluid" alt="" />
                 <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
                   <a href="https://www.instagram.com/rinjay26/"
                     ><i class="bi bi-instagram"></i
                   ></a>
@@ -604,11 +740,8 @@
               </div>
               <div class="member-info text-center">
                 <h4>Restu Putra Rinjani</h4>
-                <span>PPT</span>
-                <p>
-                  Illum minima ea autem doloremque ipsum quidem quas aspernatur
-                  modi ut praesentium vel tque sed facilis at qui
-                </p>
+                <span>Marketing</span>
+                <p>gausah buru buru, nanti ketinggalan titik koma lagi</p>
               </div>
             </div>
             <!-- End Team Member -->
@@ -621,20 +754,22 @@
               <div class="member-img">
                 <img src="assets/img/team/jean.jpg" class="img-fluid" alt="" />
                 <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
                   <a href="https://www.instagram.com/zehandragibran/"
                     ><i class="bi bi-instagram"></i
                   ></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/restu-rinjani-739a85330/"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
                 </div>
               </div>
               <div class="member-info text-center">
                 <h4>Zehandra Gibran Nugroho</h4>
-                <span>Spotify Player</span>
+                <span>Manager</span>
                 <p>
-                  Magni voluptatem accusamus assumenda cum nisi aut qui dolorem
-                  voluptate sed et veniam quasi quam consectetur
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Soluta, iusto nobis. Officiis, facilis. Repellat veritatis,
+                  culpa quae qui mollitia nulla. Amet harum temporibus
+                  blanditiis dignissimos alias ea animi eligendi impedit.
                 </p>
               </div>
             </div>
@@ -643,162 +778,198 @@
         </div>
       </section>
       <!-- /Team Section -->
-       
-    <!-- Call To Action Section (gimmick) -->
-    <section id="call-to-action" class="call-to-action section dark-background">
 
-      <img src="assets/img/cta-bg.jpg" alt="">
+      <!-- Call To Action Section (gimmick) -->
+      <section
+        id="call-to-action"
+        class="call-to-action section dark-background"
+      >
+        <img src="assets/img/cta-bg.jpg" alt="" />
 
-      <div class="container">
-        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-10">
-            <div class="text-center">
-              <h3>Call To Action</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="container">
+          <div
+            class="row justify-content-center"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="col-xl-10">
+              <div class="text-center">
+                <h3>Sedikti Wejangan Dari Kami</h3>
+                <p>
+                  Jika codingan gak ada jalan keluarnya, kita yang keluar jalan
+                  jalan.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- /Call To Action Section -->
 
-    </section><!-- /Call To Action Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title text-center" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Tertarik dengan Semua Layanan Kami? Hubungi Kami di Bawah Ini!</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 d-flex justify-content-between align-items-center">
-
-          <div class="col-md-3">
-            <div class="info-item text-center" data-aos="fade" data-aos-delay="200">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <p>Pejaten, warung Buncit</p>
-              <p>Jl. Buncit Raya, Pejaten, Jakarta 12510</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-3">
-            <div class="info-item text-center" data-aos="fade" data-aos-delay="300">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-              <p>+62 888999111</p>
-              <p>+62 788819920 41</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-3">
-            <div class="info-item text-center" data-aos="fade" data-aos-delay="400">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>tibatibawebsite@gmail.com</p>
-              <p>tibatibawebsite@contact.com</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-3">
-            <div class="info-item text-center" data-aos="fade" data-aos-delay="500">
-              <i class="bi bi-clock"></i>
-              <h3>Open Hours</h3>
-              <p>Monday - Friday</p>
-              <p>9:00AM - 05:00PM</p>
-            </div>
-          </div><!-- End Info Item -->
-
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title text-center" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Tertarik dengan Semua Layanan Kami? Hubungi Kami di Bawah Ini!</p>
         </div>
+        <!-- End Section Title -->
 
-      </div>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div
+            class="row gy-4 d-flex justify-content-between align-items-center"
+          >
+            <div class="col-md-3">
+              <div
+                class="info-item text-center"
+                data-aos="fade"
+                data-aos-delay="200"
+              >
+                <i class="bi bi-geo-alt"></i>
+                <h3>Address</h3>
+                <p>Pejaten, warung Buncit</p>
+                <p>Jl. Buncit Raya, Pejaten, Jakarta 12510</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
 
-    </section><!-- /Contact Section -->
+            <div class="col-md-3">
+              <div
+                class="info-item text-center"
+                data-aos="fade"
+                data-aos-delay="300"
+              >
+                <i class="bi bi-telephone"></i>
+                <h3>Call Us</h3>
+                <p>+62 888999111</p>
+                <p>+62 788819920 41</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
 
+            <div class="col-md-3">
+              <div
+                class="info-item text-center"
+                data-aos="fade"
+                data-aos-delay="400"
+              >
+                <i class="bi bi-envelope"></i>
+                <h3>Email Us</h3>
+                <p>tibatibawebsite@gmail.com</p>
+                <p>tibatibawebsite@contact.com</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
 
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">TIBA TIBA WEBSITE</span>
-          </a>
-          <p>Kami membantu Anda membangun website yang cepat, modern, dan penuh fitur tanpa ribet. Jangan lupa untuk mengikuti kami di media sosial di bawah ini!</p>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <div class="col-md-3">
+              <div
+                class="info-item text-center"
+                data-aos="fade"
+                data-aos-delay="500"
+              >
+                <i class="bi bi-clock"></i>
+                <h3>Open Hours</h3>
+                <p>Monday - Friday</p>
+                <p>9:00AM - 05:00PM</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
           </div>
         </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">TIBA TIBA WEBSITE</span>
+            </a>
+            <p>
+              Kami membantu Anda membangun website yang cepat, modern, dan penuh
+              fitur tanpa ribet. Jangan lupa untuk mengikuti kami di media
+              sosial di bawah ini!
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-whatsapp"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/tibatibawebsite/"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html#hero">Home</a></li>
+              <li><a href="index.html#about">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
               <li><a href="#">Website Design</a></li>
               <li><a href="#">Website Development</a></li>
-              <li><a href="#">Custom Website Solutionss</a></li> 
-              <li><a href="#">Website Maintenance</a></li> 
-          </ul>
-      </div>
-      
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-          <h4>Contact Us</h4>
-          <p>Pejaten, warung Buncit</p>
-          <p>Jl. Buncit Raya No.98</p>
-          <p>Kota Jakarta Selatan</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+62 888999111</span></p>
-          <p><strong>Email:</strong> <span>tibatibawebsite@gmail.com</span></p>
+              <li><a href="#">Custom Website Solutionss</a></li>
+              <li><a href="#">Website Maintenance</a></li>
+            </ul>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          >
+            <h4>Contact Us</h4>
+            <p>Pejaten, warung Buncit</p>
+            <p>Jl. Buncit Raya No.98</p>
+            <p>Kota Jakarta Selatan</p>
+            <p class="mt-4">
+              <strong>Phone:</strong> <span>+62 888999111</span>
+            </p>
+            <p>
+              <strong>Email:</strong> <span>tibatibawebsite@gmail.com</span>
+            </p>
+          </div>
         </div>
-
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="sitename">TTW</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        Designed by <a>TibaTibaWebsite</a>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span> <strong class="sitename">TTW</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">Designed by <a>TibaTibaWebsite</a></div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
